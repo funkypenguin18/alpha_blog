@@ -4,6 +4,8 @@ $navbar-default-bg: #08088A;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
+
 #logo{
   float:left;
   font-size: 1.7em;
@@ -35,6 +37,14 @@ $navbar-default-bg: #08088A;
   letter-spacing: -1px;
   font-weight: bold;
 }
+/* Link */
+.navbar-default .navbar-nav > li > a {
+  color: #CCCCCC;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+}
 
 .btn-xlarge {
   font-size: 1.7em;
@@ -59,6 +69,9 @@ $navbar-default-bg: #08088A;
   border-top: 1px solid #eaeaea;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+.navbar-custom  {
+  color: #fff;
 }
 
 footer {
