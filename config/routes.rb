@@ -8,5 +8,6 @@ Rails.application.routes.draw do
   resources :articles
 
   get 'signup', to: 'users#new'
+  #get 'users', to: 'user#edit'
   resources :users, exept: [:new]
 end
